@@ -20,15 +20,24 @@ jQuery(document).ready(function ($) {
 
     $('#topicosEspecializacaoFacial').show();
     $('#topicosEspecializacaoCorporal').hide();
+    $('#topicosEspecializacaoFinanceira').hide();
 
     $('#especializacaoFacial').click(function () {
         $('#topicosEspecializacaoFacial').show();
         $('#topicosEspecializacaoCorporal').hide();
+        $('#topicosEspecializacaoFinanceira').hide();
     });
 
     $('#especializacaoCorporal').click(function () {
         $('#topicosEspecializacaoFacial').hide();
         $('#topicosEspecializacaoCorporal').show();
+        $('#topicosEspecializacaoFinanceira').hide();
     });
+
+    $('#especializacaoFinanceira').click(function() {
+        $('#topicosEspecializacaoFacial').hide();
+        $('#topicosEspecializacaoCorporal').hide();
+        $('#topicosEspecializacaoFinanceira').show();
+    })
 
 });
