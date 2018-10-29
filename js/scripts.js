@@ -39,5 +39,4 @@ jQuery(document).ready(function ($) {
         $('#topicosEspecializacaoCorporal').hide();
         $('#topicosEspecializacaoFinanceira').show();
     })
-
 });
