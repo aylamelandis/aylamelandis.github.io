@@ -615,7 +615,7 @@ a {
 .white-shadow {
     padding: 2.7em 3em;
 	background:#ddd;
-    height: 200px;
+    height: 300px;
 }
 .its-banner-grid:hover span.banner-icon {
     color: #fff;
@@ -1141,7 +1141,7 @@ h3.title {
     font-size: 41px;
 }
 .white-shadow {
-    padding: 2.7em 2.5em;
+    padding: 0.5em 2.5em;
 	
 }
 .t-info {
