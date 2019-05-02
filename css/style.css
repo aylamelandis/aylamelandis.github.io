@@ -11,7 +11,7 @@ body {
     margin: 0;
     background: #fff;
     letter-spacing: 1px;
-font-family: 'Lato', sans-serif;
+font-family: 'Tahoma', sans-serif;
 }
 
 body a {
@@ -42,11 +42,11 @@ input[type="submit"] {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     letter-spacing: 1px;
-   font-family: 'Lato', sans-serif;
+   font-family: 'Tahoma', sans-serif;
 }
 select,input[type="email"],input[type="text"],input[type=password],
 input[type="button"],input[type="submit"],textarea{
-   font-family: 'Lato', sans-serif;
+   font-family: 'Tahoma', sans-serif;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -63,7 +63,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     letter-spacing: 1px;
 }
 p {
@@ -701,9 +701,9 @@ img.zoom-img:hover {
 /*-- //gallery --*/
 /*--team --*/
 
-.team {
+/* .team {
     background: #f0fefe;
-}
+} */
 .team a {
     color: #e5556c;
 }
@@ -995,6 +995,16 @@ footer {
     background: rgb(0, 0, 0);
     padding: 2em 0em;
 }
+
+footer h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: white;
+}
+
 .buttom-side p {
     font-size: 14px;
     color: #fff;
@@ -1964,6 +1974,17 @@ nav a {
 .cta-whatsapp {
     width: 100%;
     background-color: #25D366;
+    border: none;
+    padding: 10px;
+    color: white !important;
+    font-weight: bold;
+    display: block;
+    text-align: center
+}
+
+.cta-instagram {
+    width: 100%;
+    background-color: #e5556c;
     border: none;
     padding: 10px;
     color: white !important;
