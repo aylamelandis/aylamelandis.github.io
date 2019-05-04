@@ -347,7 +347,7 @@ background-repeat: no-repeat;
 a {
   color: #fff;
   text-decoration: none;
-  }
+}
 
 /* Callback example */
 /*.events {
@@ -1208,6 +1208,13 @@ h3.title {
     min-height: 359px;
 }
 }
+
+@media(min-width: 997px) {    
+    .regions {
+        margin-top: -70px;
+    }
+}
+
 @media(max-width:1080px){
 .slider-img {
     min-height: 571px;
@@ -1991,4 +1998,27 @@ nav a {
     font-weight: bold;
     display: block;
     text-align: center
+}
+
+.regions {
+    margin-bottom: 30px;
+}
+
+.regions ul {
+    margin: 15px 0;
+}
+
+.regions a {
+    color: #e5556c;
+}
+
+.btn-whatsapp-footer {
+    position: fixed;
+    right: 20px;
+    bottom: 75px;
+    z-index: 9998;
+}
+
+.btn-whatsapp-footer .cta-whatsapp {
+    border-radius: 50px;
 }
